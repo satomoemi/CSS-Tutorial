@@ -54,6 +54,8 @@ img{
 }
 /* div要素にスタイルを適用 */
 div{
+  /* paddingとborderを、要素のwidthとheightに含む */
+  /* content-box(初期値)：paddingとborderを、要素のwidthとheightに含まない */
   box-sizing: border-box;
   width: 320px;
   height: 360px;
